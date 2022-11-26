@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container{
+    max-width: 480px;
+    width: 90%;
+    color: white;
+    border: 2px solid white;
+    padding: 50px;
+}
+.hidden{
+    display: none;
+}
+form{
+    display: flex;
+}
+.img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    img{
+        height:30px;
+        width:30px;
+    }
+}
+input[type="search"]{
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 0;
+    border-right: 0;
+    padding: 16px;
+    width: 100%;
+    font-size: 16px;
+}
+input[type="submit"]{
+    font-weight: bold;
+    font-family: inherit;
+    border: 1px solid rgb(10, 99, 0);
+    background-color: rgb(52, 121, 2);
+    color: white;
+    padding: 0 16px;
+}
+.card{
+    width: 250px;
+    position: relative;
+    margin: 20px auto;
+    border: 5px solid gold;
+    padding: 8px;
+}
+
+/* .card.fire{
+    background-color: firebrick;
+    color: white;
+}
+.card.grass{
+    background-color: rgb(0, 173, 0);
+    color: white;
+}
+.card.water{
+    background-color: lightskyblue;
+    color: white;
+}
+.card.ground{
+    background-color: rgb(122, 33, 0);
+    color: white;
+}
+.card.bug{
+    background-color: rgb(79, 0, 206);
+    color: white;
+}
+.card.psychic{
+    background-color: rgb(164, 0, 150);
+    color: white;
+}
+.card.poison{
+    background-color: rgb(102, 79, 236);
+    color: white;
+}
+.card.normal{
+    background-color: rgb(72, 71, 77);
+    color: white;
+}
+.card.electric{
+    background-color: rgb(255, 242, 0);
+    color: rgb(0, 0, 0);
+}
+.card.fairy{
+    background-color: rgb(255, 184, 246);
+    color: rgb(0, 0, 0);
+}
+.card ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-between;
+}
+.card ul li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card ul li span{
+    display: block;
+    flex-basis: 100%;
+    font-weight: bold;
+}
+.next-pokemon,
+.prev-pokemon{
+    background-color: white;
+    position: absolute;
+    top: 95%;
+    padding-right: 8px;
+    border:4px solid gold;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.next-pokemon{
+    right: 0;
+    transform: translateX(50%);
+}
+.prev-pokemon{
+    left: 0;
+    transform: translateX(-50%);
+} */
